@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int arr[]={23,12,45,20,90,89,95,32,65,19};
+  int n=sizeof(arr)\size of (arr[0]);
+  int res=arr[0];
+  for(int i=0;i<n;i++){
+    if(res<arr[i])
+      res=arr[i];
+  }
+    printf("array elements:");
+  for(int i=0;i<n;i++){
+    printf("%d",arr[i]);
+  }
+}
+  
